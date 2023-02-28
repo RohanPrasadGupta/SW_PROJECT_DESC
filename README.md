@@ -1,0 +1,2 @@
+# SW_PROJECT_DESC
+SW_PROJECT_for_AI_and_IoT
