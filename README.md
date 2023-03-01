@@ -17,8 +17,7 @@
 
 5. As a **Labour**, I want to **have an emergency button ** so that **I can get cure when labour plays the help button**, then **manager will be notified**.
 
-**just think***
-6. **Decision of Manager**
+6. **Decision of Manager** (**just think**)
 
 
 
