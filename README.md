@@ -12,6 +12,9 @@
 * Scenario: **Emergency aid needed**, given **Bluetooth connection**, when **Emergency needed from injured worker**, then **data will send to the supervisor via Bluetooth to call emergency unit**.
 * Scenario: **Alert to Emergency unit**, given **GPS Location**, when **supervisor get alert data via Bluetooth**, then **supervisor send GPS data to emergency unit.**
 
+4. As a **Labour**, I want to **be notify the construction manager** so that **I can get cure**.
+* Scenario: **The labour is injured**, given **Bluetooth connection**, when **Injury happenes**, then **I will push the alert button.**
+
 
 
 ## Objectives
