@@ -15,7 +15,7 @@
 4. As a **Labour**, I want to **notify the construction manager** so that **I can get cure**.
    * Scenario: **The labour is injured**, given **Bluetooth connection**, when **Injury happenes**, then **I will push the alert button.**
 
-5. As a **Labour**, I want to **have an emergency button ** so that **I can get cure when labour plays the help button**, then **manager will be notified**.
+5. As a **Labour**, I want to **have an emergency button** so that **I can get cure when labour plays the help button**, then **manager will be notified**.
 
 6. **Decision of Manager** (**just think**)
 
