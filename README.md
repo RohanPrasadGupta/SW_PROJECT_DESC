@@ -2,13 +2,15 @@
 
 ##Smart Construction Management System
 
-1.	As a **construction manager**, I want to ** be notified that how many labours come to site** so that **I can calculate the number of manpower.**
-*Scenario: **labours attendance**, given **actual labours on site**, when **the labours entering the construction site**, then **check the status and precise location during working hours.**
+1.	As a **construction manager**, I want to  **be notified that how many labours come to site** so that **I can calculate the number of manpower.**
+* Scenario: **labours attendance**, given **actual labours on site**, when **the labours entering the construction site**, then **check the status and precise location during working hours.**
+
 2.	As a **construction manager**, I want to **see the overtime of labours** so that **I can calculate the amount of overtime**.
-*Scenario: **labour after working hours**, **given number of labours**, when **stay working on construction site**, then **check the location and time**.
+* Scenario: **labour after working hours**, **given number of labours**, when **stay working on construction site**, then **check the location and time**.
+
 3.	As a **construction manager**, I want to **be notified the emergency case of labour** so that **I can alert to emergency unit**.
-*Scenario: **Emergency aid needed**, given **Bluetooth connection**, when **Emergency needed from injured worker**, then **data will send to the supervisor via Bluetooth to call emergency unit**.
-*Scenario: **Alert to Emergency unit**, given **GPS Location**, when **supervisor get alert data via Bluetooth**, then **supervisor send GPS data to emergency unit.**
+* Scenario: **Emergency aid needed**, given **Bluetooth connection**, when **Emergency needed from injured worker**, then **data will send to the supervisor via Bluetooth to call emergency unit**.
+* Scenario: **Alert to Emergency unit**, given **GPS Location**, when **supervisor get alert data via Bluetooth**, then **supervisor send GPS data to emergency unit.**
 
 
 
