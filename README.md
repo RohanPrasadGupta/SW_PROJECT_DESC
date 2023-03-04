@@ -13,7 +13,7 @@
    
 4. As a **labour**, I want to **notify the emergency alert** so that **I can get the emergency respond**.
    * Scenario: **The labour is injured**, given **Wifi connection**, when **Injury happenes**, then **I will push the injured alert button.**
-   * Scenario: **Fire Case **, given **Wifi connection**, when **Fire burning occurs**, then **I will push the fire alert button.**
+   * Scenario: **Fire Case**, given **Wifi connection**, when **Fire burning occurs**, then **I will push the fire alert button.**
 
 
 
