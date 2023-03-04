@@ -9,8 +9,11 @@
    * Scenario: **labour after working hours**, **given number of labours**, when **stay working on construction site**, then **check the location and time**.
 
 3. As a **construction manager**, I want to **be notified the emergency case of labour** so that **I can alert to emergency unit**.
-   * Scenario: **The labour is injured**, given **Wifi connection**, when **Injury happenes**, then **I will push the alert button.**
    * Scenario: **Emergency aid needed**, given **Wifi Connection**, when **Emergency needed from injured worker**, then **data will send to the supervisor via Wifi Connection to call emergency unit**.
+   
+4. As a **labour**, I want to **notify the emergency alert** so that **I can get the emergency respond**.
+   * Scenario: **The labour is injured**, given **Wifi connection**, when **Injury happenes**, then **I will push the injured alert button.**
+   * Scenario: **Fire Case **, given **Wifi connection**, when **Fire burning occurs**, then **I will push the fire alert button.**
 
 
 
