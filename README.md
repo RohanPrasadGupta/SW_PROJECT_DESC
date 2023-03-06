@@ -23,10 +23,11 @@
 ![image](https://user-images.githubusercontent.com/54372454/223024492-b2126be1-4282-45ef-82d0-cacc6a98a63a.png)
 
 * For Case 3
-![image](https://user-images.githubusercontent.com/54372454/223024539-61893829-4ed8-4b32-a83e-6a093255119a.png)
+![image](https://user-images.githubusercontent.com/54372454/223030034-9302109a-0127-4ff2-a6c7-b3f2c7b25b6a.png)
 
 * For Case 4
-![image](https://user-images.githubusercontent.com/54372454/223024586-c51ebaad-186c-4534-8bf8-20ce170a81fd.png)
+![image](https://user-images.githubusercontent.com/54372454/223030222-44c6490e-737c-43bd-ab98-fa814c2578c4.png)
+
 
 
 ## Objectives
