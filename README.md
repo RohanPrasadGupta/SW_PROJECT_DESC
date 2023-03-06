@@ -19,7 +19,7 @@
 ## System Structure
 ![image](https://user-images.githubusercontent.com/54372454/223024415-06281da4-8bc3-42ad-9a51-14b52dcbe5bf.png)
 
-## For Case to Calculate the working Hours
+## For Case to Calculate the working Hour
 ![image](https://user-images.githubusercontent.com/54372454/223031744-be9eeb63-3362-4472-a5be-aff21e1f46e5.png)
 
 ## For Case to Alert the Emergency Unit
