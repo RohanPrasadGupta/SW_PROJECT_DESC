@@ -16,16 +16,16 @@
    * Scenario: **Fire Case**, given **Wifi connection**, when **Fire burning occurs**, then **I will push the fire alert button.**
 
 # Software Architecture and Behavior
-## For Case 1
+## System Structure
 ![image](https://user-images.githubusercontent.com/54372454/223024415-06281da4-8bc3-42ad-9a51-14b52dcbe5bf.png)
 
-## For Case 2
-![image](https://user-images.githubusercontent.com/54372454/223024492-b2126be1-4282-45ef-82d0-cacc6a98a63a.png)
+## For Case to Calculate the working Hours
+![image](https://user-images.githubusercontent.com/54372454/223031744-be9eeb63-3362-4472-a5be-aff21e1f46e5.png)
 
-## For Case 3
+## For Case to Alert the Emergency Unit
 ![image](https://user-images.githubusercontent.com/54372454/223030034-9302109a-0127-4ff2-a6c7-b3f2c7b25b6a.png)
 
-## For Case 4
+## For Case to Get Emergency Respond
 ![image](https://user-images.githubusercontent.com/54372454/223030222-44c6490e-737c-43bd-ab98-fa814c2578c4.png)
 
 
