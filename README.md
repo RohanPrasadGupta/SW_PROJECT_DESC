@@ -15,6 +15,18 @@
    * Scenario: **The labour is injured**, given **Wifi connection**, when **Injury happenes**, then **I will push the injured alert button.**
    * Scenario: **Fire Case**, given **Wifi connection**, when **Fire burning occurs**, then **I will push the fire alert button.**
 
+## Software Architecture and Behavior
+* For Case 1
+![image](https://user-images.githubusercontent.com/54372454/223024415-06281da4-8bc3-42ad-9a51-14b52dcbe5bf.png)
+
+* For Case 2
+![image](https://user-images.githubusercontent.com/54372454/223024492-b2126be1-4282-45ef-82d0-cacc6a98a63a.png)
+
+* For Case 3
+![image](https://user-images.githubusercontent.com/54372454/223024539-61893829-4ed8-4b32-a83e-6a093255119a.png)
+
+* For Case 4
+![image](https://user-images.githubusercontent.com/54372454/223024586-c51ebaad-186c-4534-8bf8-20ce170a81fd.png)
 
 
 ## Objectives
@@ -23,6 +35,7 @@
 3.	.
 
 ## Project brief
+
 
 ## Members
 
