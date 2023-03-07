@@ -19,8 +19,7 @@
 
 ## System Structure
 
-![3067](https://user-images.githubusercontent.com/54372454/223304997-37bba889-5268-46ff-bc82-f2d33435f266.jpg)
-
+![3067](https://user-images.githubusercontent.com/54372454/223305374-48d92af5-a8a6-44d1-9729-c347c6e6ed65.jpg)
 
 ## Case Structure
 ![image](https://user-images.githubusercontent.com/54372454/223024415-06281da4-8bc3-42ad-9a51-14b52dcbe5bf.png)
