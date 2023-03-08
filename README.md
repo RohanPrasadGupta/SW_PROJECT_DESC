@@ -18,8 +18,10 @@
 # Software Architecture and Behavior
 
 ## System Structure
+![System Structure](https://user-images.githubusercontent.com/54372454/223680775-97820079-3c80-4711-873f-64b7c64a4e8b.jpg)
 
-![3067](https://user-images.githubusercontent.com/54372454/223305374-48d92af5-a8a6-44d1-9729-c347c6e6ed65.jpg)
+## System Overview
+![image](https://user-images.githubusercontent.com/54372454/223699373-3dee8015-4997-4d34-836a-5a04be1c72cf.png)
 
 ## Case Structure
 ![image](https://user-images.githubusercontent.com/54372454/223024415-06281da4-8bc3-42ad-9a51-14b52dcbe5bf.png)
