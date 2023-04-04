@@ -18,7 +18,7 @@
 # Software Architecture and Behavior
 
 ## System Structure
-![System Structure](https://user-images.githubusercontent.com/54372454/223680775-97820079-3c80-4711-873f-64b7c64a4e8b.jpg)
+![System structure](https://user-images.githubusercontent.com/126549879/229776705-c9ef0782-cb6a-4383-a62f-763a10d5fffd.jpeg)
 
 ## System Overview
 ![image](https://user-images.githubusercontent.com/54372454/223699373-3dee8015-4997-4d34-836a-5a04be1c72cf.png)
