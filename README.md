@@ -2,7 +2,7 @@
 
 ## Smart Construction Management System
 
-1. As a **construction manager**, I want to  **be notified that how many labours come to site** so that **I can calculate the number of manpower.**
+1. As a **construction manager**, I want to  **be informed that how many labours come to site** so that **I can calculate the number of manpower.**
    * Scenario: **labours attendance**, given **actual labours on site**, when **the labours entering the construction site**, then **check the status and precise location during working hours.**
 
 2. As a **construction manager**, I want to **see the overtime of labours** so that **I can calculate the amount of overtime**.
