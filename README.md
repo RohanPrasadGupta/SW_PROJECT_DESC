@@ -15,9 +15,9 @@
    * Scenario: **The labour is injured**, given **Wifi connection**, when **Injury happenes**, then **I will push the injured alert button.**
    * Scenario: **Fire Case**, given **Wifi connection**, when **Fire burning occurs**, then **I will push the fire alert button.**
 
-# Software Architecture and Behavior
+# Software Architecture and Behaviors
 
-## System Structure
+## System Design
 ![System structure](https://user-images.githubusercontent.com/126549879/229776705-c9ef0782-cb6a-4383-a62f-763a10d5fffd.jpeg)
 
 ## System Overview
