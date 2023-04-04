@@ -1,4 +1,4 @@
-# Userstories and acceptance criteria
+# User stories and acceptance criteria
 
 ## Smart Construction Management System
 
