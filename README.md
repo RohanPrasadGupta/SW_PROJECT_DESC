@@ -58,7 +58,7 @@
 ![Picture of group 3 hardware](/images/HW_group_3.jpg)
 1. [TTGO T-Beam v1.1](http://www.lilygo.cn/claprod_view.aspx?TypeId=62&Id=1281&FId=t28:62:28) (TTGO T-Beam)
    * [CH9102 USB serial](https://learn.adafruit.com/how-to-install-drivers-for-wch-usb-to-serial-chips-ch9102f-ch9102) 
-   * GPS NEO-6M
+   * GPS NEO-6M <not working>
    * OLED 128x64
    * LoRa 923MHz
 2. [TTGO T-Beam](http://www.lilygo.cn/prod_view.aspx?TypeId=50060&Id=1237) (TTGO T-Beam)
@@ -67,6 +67,7 @@
    * LoRa 923MHz
 3. [TTGO T-Beam](http://www.lilygo.cn/prod_view.aspx?TypeId=50060&Id=1237) (TTGO T-Beam)
    * [CP210x USB serial](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+   * GPS NEO
    * LoRa 923MHz
 4. [TTGO LORA32 1.6](http://www.lilygo.cn/prod_view.aspx?TypeId=50003&Id=1130&FId=t3:50003:3) (TTGO Lora32-OLED V2.1.6)
    * [CP210x USB serial](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
