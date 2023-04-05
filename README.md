@@ -2,18 +2,18 @@
 
 ## Smart Construction Management System
 
-1. As a **construction manager**, I want to  **be informed that how many labours come to the construction site** so that **I can calculate the number of labours.**
-   * Scenario: **labours attendance**, given **actual labours on the construction site**, when **the labours entering to the construction site**, then **verify the location and current status during working hours.**
+1. As a **construction manager**, I want to  **be informed that how many labours come to the construction site** so that **I can calculate and estimate the number of labours on the construction site.**
+   * Scenario: **attendance of labours**, given **actual labours on the construction site**, when **the labours entering to the construction site**, then **verify the location and current status during working hours.**
 
-2. As a **construction manager**, I want to **see the overtime of labours** so that **I can calculate the amount of overtime**.
-   * Scenario: **labour after working hours**, **given number of labours**, when **stay working on construction site**, then **check the location and time**.
+2. As a **construction manager**, in order to **determine the amount of overtime**, I need to **see the laborers' overtime hours**.
+   * Scenario: **labour after working hours**, **given number of labours**, when **stay working on construction site**, then **look up the location and time**.
 
-3. As a **construction manager**, I want to **be notified the emergency case of labour** so that **I can alert to emergency unit**.
-   * Scenario: **Emergency aid needed**, given **Wifi Connection**, when **Emergency needed from injured worker**, then **data will send to the supervisor via Wifi Connection to call emergency unit**.
+3. As a **construction manager**, I want to **be informed of an emergency labour situation** so that I can **notify to the emergency team**.
+   * Scenario: **Emergency aid needed**, given **Wifi Connection**, when **Emergency needed from injured labour**, then **necessary data of injured labour will send to the construction supervisor with Wifi Connection to call emergency team**.
    
 4. As a **labour**, I want to **notify the emergency alert** so that **I can get the emergency respond**.
-   * Scenario: **The labour is injured**, given **Wifi connection**, when **Injury happenes**, then **I will push the injured alert button.**
-   * Scenario: **Fire Case**, given **Wifi connection**, when **Fire burning occurs**, then **I will push the fire alert button.**
+   * Scenario: **The labour is injured**, given **Wifi connection**, when **injury happenes**, then **I will press the injured alert button.**
+   * Scenario: **Fire Case**, given **Wifi connection**, when **Fire burning occurs**, then **I will press the fire alert button.**
 
 # Software Architecture and Behaviors
 
