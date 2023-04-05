@@ -34,13 +34,10 @@
 ## For Case to Get Emergency Respond
 ![image](https://user-images.githubusercontent.com/54372454/223699747-8762d85b-d853-4869-ab08-42205329b70b.png)
 
-
-
-
 ## Objectives
-1.	.
-2.	.
-3.	.
+1.
+2.
+3.
 
 ## Project brief
 
@@ -48,11 +45,10 @@
 ## Members
 
 1.	Zun Khet Wai (zunkhetwai@gmail.com)
-2.	Kyaw Thiha (kyawthiha7090@gmail.com)
-3.	Hay Man Htun (hayman.h@live.ku.th)
-4.	ROHAN PRASAD GUPTA (rohanprasadgupta4@gmail.com)
-5.	Kyaw Maung Maung Thwin (kyawmgmgthwin12@gmail.com)
-6.	Adnan Ali (vu.adnan@gmail.com)
+2.	Hay Man Htun (hayman.h@live.ku.th)
+3.	ROHAN PRASAD GUPTA (rohanprasadgupta4@gmail.com)
+4.	Kyaw Maung Maung Thwin (kyawmgmgthwin12@gmail.com)
+5.	Adnan Ali (vu.adnan@gmail.com)
 
 ### Hardware
 ![Picture of group 3 hardware](/images/HW_group_3.jpg)
