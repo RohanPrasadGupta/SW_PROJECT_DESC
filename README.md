@@ -6,7 +6,7 @@
    * Scenario: **attendance of labours**, given **actual labours on the construction site**, when **the labours entering to the construction site**, then **verify the location and current status during working hours.**
 
 2. As a **construction manager**, in order to **determine the amount of overtime**, I need to **see the laborers' overtime hours**.
-   * Scenario: **labour after working hours**, **given number of labours**, when **stay working on construction site**, then **look up the location and time**.
+   * Scenario: **labour after working hours**, **given number of labours**, when **stay working on construction site**.
 
 3. As a **construction manager**, I want to **be informed of an emergency labour situation** so that I can **notify to the emergency team**.
    * Scenario: **Emergency aid needed**, given **Wifi Connection**, when **Emergency needed from injured labour**, then **necessary data of injured labour will send to the construction supervisor with Wifi Connection to call emergency team**.
