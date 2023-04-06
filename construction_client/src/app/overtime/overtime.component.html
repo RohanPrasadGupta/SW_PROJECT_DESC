@@ -1,0 +1,23 @@
+<table>
+    <thead>
+      <tr>
+        <th>Worker ID</th>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Check In</th>
+        <th>Check Out</th>
+        <th>Overtime</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let worker of overtimes">
+        <td>{{ worker.worker_id }}</td>
+        <td>{{ worker.name }}</td>
+        <td>{{ worker.date }}</td>
+        <td>{{ worker.check_in }}</td>
+        <td>{{ worker.check_out }}</td>
+        <td>{{ worker.overtime }}</td>
+      </tr>
+    </tbody>
+  </table>
+  

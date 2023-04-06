@@ -1,0 +1,86 @@
+<fieldset>
+  <legend>
+    {{title}}
+  </legend>
+  <div>
+    <svg [attr.width]='svgWidth' [attr.height]='svgHeight'>
+      <rect [attr.x]='recX' [attr.y]="recY" [attr.width]="recWidth" [attr.height]="recHeight"
+        style="fill:beige; stroke-width:2;" />
+      <g *ngFor="let worker of workers">
+        <image *ngIf="worker.on_site" [attr.href]="getHref(worker)" [attr.x]="getX(worker.lat)"
+          [attr.y]="getY(worker.lon)" [attr.width]="imageWidth"></image>
+      </g>
+    </svg>
+    <div class="worker-container">
+      <ul class="worker-list">
+        <li>On-Site Workers</li>
+        <li *ngFor="let worker of workers" class="worker-item">
+          <img *ngIf="worker.on_site" [src]="getHref(worker)" class="worker-image" [ngStyle]="{'width.px': imageWidth}">
+          <span *ngIf="worker.on_site" class="worker-name">{{worker.name}}</span>
+        </li>
+      </ul>
+      <div class="vertical-line"></div> <!-- Vertical line -->
+      <ul class="worker-list">
+        <li>Off-Site Workers</li>
+        <li *ngFor="let worker of workers" class="worker-item">
+          <ng-container *ngIf="!worker.on_site">
+            <img [src]="getHref(worker)" class="worker-image" [ngStyle]="{'width.px': imageWidth}">
+            <span class="worker-name">{{worker.name}}</span>
+          </ng-container>
+        </li>
+      </ul>
+      <div class="vertical-line"></div> <!-- Vertical line -->
+      <ul class="worker-list">
+        <li>Injured Workers</li>
+        <li *ngFor="let worker of workers" class="worker-item">
+          <ng-container *ngIf="worker.emergency==1">
+            <button (click)="resolvedEmergency(worker)" class="image-button">
+              <img class="button-image" [src]="getHref(worker)" class="worker-image" [ngStyle]="{'width.px': imageWidth}">
+              <span class="worker-name">{{worker.name}}</span>
+            </button>
+          </ng-container>
+        </li>
+      </ul>
+      <div class="vertical-line"></div> <!-- Vertical line -->
+      <ul class="worker-list">
+        <li>Fire Alarm</li>
+        <li *ngFor="let worker of workers" class="worker-item">
+          <ng-container *ngIf="worker.emergency==2">
+            <button (click)="resolvedEmergency(worker)" class="image-button">
+              <img class="button-image" [src]="getHref(worker)" class="worker-image" [ngStyle]="{'width.px': imageWidth}">
+              <span class="worker-name">{{worker.name}}</span>
+            </button>
+          </ng-container>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</fieldset>
+
+<!-- Table to display the JSON response data -->
+<h1>Worker Data</h1>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Device ID</th>
+    <th>Phone</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+    <th>Emergency</th>
+    <th>On Site</th>
+    <th>Last Updated</th>
+  </tr>
+  <tr *ngFor="let worker of workers">
+    <td>{{ worker.id }}</td>
+    <td>{{ worker.name }}</td>
+    <td>{{ worker.device_id }}</td>
+    <td>{{ worker.phone }}</td>
+    <td>{{ worker.lat }}</td>
+    <td>{{ worker.lon }}</td>
+    <td>{{ worker.emergency === 1 ? 'Injury' : (worker.emergency === 2 ? 'Fire' : '') }}</td>
+    <td>{{worker.on_site ? 'Yes' : 'No' }}</td>
+    <td>{{ worker.last_updated }}</td>
+  </tr>
+</table>

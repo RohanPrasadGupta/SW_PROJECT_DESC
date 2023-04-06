@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Set background color of header */
+    z-index: 1000;
+}
+
+div{
+    display: flex;
+    justify-content: left;
+}
+
+section {
+    margin-top: 100px; /* Add margin top to your content to prevent overlap with header */
+}
