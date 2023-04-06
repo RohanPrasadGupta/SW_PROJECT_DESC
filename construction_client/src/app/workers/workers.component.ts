@@ -32,9 +32,12 @@ export class WorkersComponent implements OnInit {
   constructor(private apiService: ApiService) { }
 
   ngOnInit(): void {
-    setInterval(() => {
+    const callGetWorkers = () => {
       this.getWorkers();
-    }, 5000);
+      setTimeout(callGetWorkers, 5000);
+    };
+    
+    callGetWorkers();
   }
 
   getWorkers() {
