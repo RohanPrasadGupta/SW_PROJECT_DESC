@@ -6,7 +6,7 @@ import construction_mng.info as info
 class WorkerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Worker
-        fields = ['id', 'name', 'device_id', 'phone']
+        fields = ['id', 'name', 'device_id', 'phone', 'lat', 'lon']
 
 
 class ActivitySerializer(serializers.ModelSerializer):
@@ -21,6 +21,8 @@ class ActivitySerializer(serializers.ModelSerializer):
         worker_id = validated_data['worker_id']
         lat = validated_data['lat']
         lon = validated_data['lon']
+        if lat == 0 and lon == 0:
+            lat, lon = info.get_lat_lon(worker_id)
         activity = last_activity = info.get_today_last_activity(worker_id)
         is_onsite = info.is_on_site(lat, lon)
         if not last_activity or last_activity.on_site != is_onsite:
@@ -31,10 +33,15 @@ class ActivitySerializer(serializers.ModelSerializer):
             activity.on_site = is_onsite
             activity.save()
         
+        # update lat and lon of worker
+        worker = Worker.objects.get(pk = worker_id)
+        worker.lat, worker.lon = lat, lon
+        worker.save()
+
         # create or update attendance
-        attendance = info.get_attendance(worker_id, info.get_today_date())
+        attendance = info.get_today_attendance(worker_id)
         if not attendance:
-            # create a new attendance
+            # create a new attendance with today date
             attendance = Attendance()
             attendance.worker_id = worker_id
         attendance.save()
@@ -44,8 +51,15 @@ class ActivitySerializer(serializers.ModelSerializer):
         if self.emergency_case != 0:
             emergency = Emergency()
             emergency.worker_id = worker_id
-            emergency.lat, emergency.lon = info.get_lat_lon(worker_id)
+            emergency.lat, emergency.lon = lat, lon
             emergency.case_type = self.emergency_case
             emergency.on_site = is_onsite
             emergency.save()
         return activity
+    
+class EmergencySerializer(serializers.ModelSerializer):
+    worker_id = serializers.PrimaryKeyRelatedField(queryset=Worker.objects.all())
+    
+    class Meta:
+        model = Emergency
+        fields = '__all__'

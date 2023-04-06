@@ -9,6 +9,9 @@ class Worker(models.Model):
     lat = models.FloatField(default=0)
     lon = models.FloatField(default=0)
 
+    def __str__(self) -> str:
+        return self.id
+
 class Activity(models.Model):
     worker_id = models.ForeignKey(Worker, on_delete=models.CASCADE)
     date = models.DateField(auto_now_add=True)
@@ -27,6 +30,10 @@ class Emergency(models.Model):
     case_type = models.SmallIntegerField()
     case_status = models.BooleanField(default=False)
     note = models.CharField(max_length=100, default="")
+    
+    
+    def __str__(self) -> str:
+        return self.id
 
 class Attendance(models.Model):
     worker_id = models.ForeignKey(Worker, on_delete=models.CASCADE)
