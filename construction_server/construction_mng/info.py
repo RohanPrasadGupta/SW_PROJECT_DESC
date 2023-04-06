@@ -54,7 +54,7 @@ def get_worker_list_response(workers: list):
             worker_response['lon'] = worker.lon if attendance else 0
             worker_response['emergency'] = 0
 
-        worker_response['on_site'] = is_on_site(worker.lat, worker.lon)
+        worker_response['on_site'] = is_on_site(worker.lat, worker.lon) if attendance else False
         worker_response['last_updated'] = last_updated
 
         data.append(worker_response)
