@@ -1,12 +1,23 @@
 from rest_framework import serializers
 from construction_mng.models import Worker, Activity, Emergency, Attendance
 import construction_mng.info as info
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
+class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
+    @classmethod
+    def get_token(cls, user):
+        token = super().get_token(user)
+
+        # Add custom claims
+        token['username'] = user.username
+        # ...
+
+        return token
 
 class WorkerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Worker
-        fields = ['id', 'name', 'device_id', 'phone', 'lat', 'lon']
+        fields = '__all__'
 
 
 class ActivitySerializer(serializers.ModelSerializer):
@@ -62,4 +73,10 @@ class EmergencySerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Emergency
+        fields = '__all__'
+
+class AttendanceSerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        model = Attendance
         fields = '__all__'
