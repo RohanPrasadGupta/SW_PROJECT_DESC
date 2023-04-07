@@ -8,7 +8,7 @@ import { Worker, Emergency } from '../worker';
   styleUrls: ['./workers.component.css']
 })
 export class WorkersComponent implements OnInit {
-  title = "Wokers";
+  title = "Workers";
   imageWidth: number = 20;
   imageHeight: number = 52;
   svgWidth: number = 550;
